@@ -15,7 +15,7 @@ namespace EXam_C__OOP
         public string Name
         { get { return name; } set { name = value; } }
         public int Id { get { return id; } set { id = value; } }
-        public Exam SubExam { get { return subExam; } set { subExam = value; } }
+        public Exam SubExam { get{ return subExam; } set { subExam = value; } }
 
         public Subject(string _name, int _id, Exam _subExam)
         {
